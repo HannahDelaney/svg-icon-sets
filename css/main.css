@@ -5,6 +5,7 @@ html {
 
 body {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  text-align: center;
 }
 
 i {
@@ -16,8 +17,26 @@ i {
   color: #fff;
 }
 
-.btn-ghost:hover {
+.btn:hover {
   background-color: #fff;
   color: #ff5e3a;
   border-color: #fff;
+}
+
+.text-content {
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.item-1, .item-2 {
+  border-bottom: 3px #ff9500 solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .item-1, .item-2 {
+    border-right: 3px #ff9500 solid;
+    border-bottom: none;
+  }
+
 }
